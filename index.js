@@ -59,7 +59,7 @@ function handlebarsSetup() {
 
 function init() {
   handlebarsSetup()
-  initForm()
+  loadForm()
 }
 document.addEventListener("DOMContentLoaded", function(event) {
   init()
